@@ -112,7 +112,7 @@ def redrawWindow():
 
 runner = player(200, 313, 64, 64)
 pygame.time.set_timer(USEREVENT+1, 500)
-pygame.time.set_timer(USEREVENT+2, random.randrange(2000, 5000))
+pygame.time.set_timer(USEREVENT+2, random.randrange(2000, 4500))
 speed = 30
 run = True
 
