@@ -135,7 +135,7 @@ def redrawWindow():
         x.draw(win)
 
     font = pygame.font.SysFont('comicsans', 30)
-    text = font.render('Score: ' + str(score), 1, (255,255,255))
+    text = font.render('Score: ' + str(score), 1, (255,255,254))
     win.blit(text, (700, 10))
     pygame.display.update()
 
